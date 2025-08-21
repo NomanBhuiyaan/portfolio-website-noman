@@ -1,18 +1,25 @@
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-style: normal;
+  font-style: regular;
   font-variation-settings:
     "wdth" 100;
 }
 
 /* share style start*/
+.secondary-bg{
+background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
 
 .dark-2-color{
     color:#474747;
+}
+
+.dark-3-color{
+    color: #757575;
 }
 
 .button-common{
@@ -25,8 +32,23 @@
     border: none;
 }
 
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818 ;
+}
 
-/* share text end*/
+.section-description{
+    font-size: 18px;
+    color:#757575 ;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+/* share style end*/
 
 
 
@@ -35,12 +57,18 @@ header{
     max-height: 824px;
 }
 
+.header{
+    background-image: url(/portfolio-resources/images/developer.png), url(/portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+}
+
 /* nav style */
 
 nav{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+
 }
 
 nav ul{
@@ -69,9 +97,95 @@ nav ul li a{
 
 /* nav style end */
 
+/* banner style */
 
-/* button Design */
+.banner{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 0 35px 0 200px;
+
+}
+
+.banner-content{
+    max-width: 580px;
+}
 
 
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
 
-/* button Design */
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-paragraph{
+    font-size: 18px;
+}
+
+.banner-profile-picture{
+    width:580px ;
+}
+
+/* main style */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* about style */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px ;
+    text-align: center;
+    margin-top:130px;
+}
+
+/* about-items style */
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    line-height: 5px;
+}
+.item-description{
+    font-weight: bold;
+}
+
+/* skills style */
+
+.skills{
+    margin-top: 115px;
+}
+.section-description-width{
+    padding: 30px 115px 50px 115px ;
+}
+
+/* skills-container */
+
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.skill{
+    border: 1px solid white;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description{
+    
+}
